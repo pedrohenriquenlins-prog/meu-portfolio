@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Portfólio pessoal de estudante de Ciência da Computação.">
+  <title>Meu Portfólio | Desenvolvedor em formação</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+  <script src="js/script.js" defer></script>
+</head>
+<body>
+  <header class="header" id="topo">
+    <nav class="navbar container" aria-label="Navegação principal">
+      <a class="logo" href="#inicio" aria-label="Ir para o início">&lt;PH<span>/&gt;</span></a>
+      <button class="menu-toggle" aria-label="Abrir menu" aria-expanded="false" aria-controls="nav-links">
+        <span></span><span></span><span></span>
+      </button>
+      <ul class="nav-links" id="nav-links">
+        <li><a href="#inicio">Início</a></li>
+        <li><a href="#sobre">Sobre mim</a></li>
+        <li><a href="#habilidades">Habilidades</a></li>
+        <li><a href="#projetos">Projetos</a></li>
+        <li><a class="nav-contact" href="#contato">Contato</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero section container" id="inicio">
+      <div class="hero-content reveal">
+        <p class="eyebrow"><span class="status-dot"></span> Disponível para aprender e colaborar</p>
+        <h1>Olá, eu sou <span class="gradient-text">Pedro Henrique.</span></h1>
+        <h2>Estudante de Ciência da Computação</h2>
+        <p class="hero-description">
+          Estou construindo minha jornada na tecnologia, explorando programação,
+          desenvolvimento web e soluções que transformam ideias em projetos.
+        </p>
+        <div class="hero-actions">
+          <a class="button button-primary" href="#projetos">Ver meus projetos <span aria-hidden="true">↗</span></a>
+          <a class="button button-outline" href="#contato">Entrar em contato</a>
+        </div>
+        <div class="social-links" aria-label="Redes sociais">
+          <!-- Substitua os endereços abaixo pelos seus perfis reais. -->
+          <a href="https://github.com/" target="_blank" rel="noopener noreferrer">GitHub ↗</a>
+          <a href="https://www.linkedin.com/" target="_blank" rel="noopener noreferrer">LinkedIn ↗</a>
+        </div>
+      </div>
+      <div class="hero-image-wrap reveal">
+        <div class="image-glow"></div>
+        <img class="profile-image" src="imagens/perfil.jpg" alt="Foto de perfil de Pedro Henrique">
+        <div class="image-caption"><span class="caption-icon">✦</span> Desenvolvedor em formação</div>
+      </div>
+      <a class="scroll-indicator" href="#sobre" aria-label="Rolar para a seção Sobre mim">↓</a>
+    </section>
+
+    <section class="section section-muted" id="sobre">
+      <div class="container">
+        <div class="section-heading reveal">
+          <p class="eyebrow">UM POUCO SOBRE MIM</p>
+          <h2>Aprendendo hoje para <span class="gradient-text">construir o amanhã.</span></h2>
+        </div>
+        <div class="about-grid">
+          <div class="about-text reveal">
+            <p>
+              Sou estudante do primeiro semestre de Ciência da Computação na UDF.
+              Escolhi essa área pela possibilidade de unir lógica, criatividade e
+              tecnologia para resolver problemas reais.
+            </p>
+            <p>
+              Atualmente, estou desenvolvendo minha base em programação e estudando
+              tecnologias para criação de aplicações. Gosto de aprender na prática,
+              transformar exercícios em projetos e documentar minha evolução.
+            </p>
+            <p>
+              Meu objetivo é continuar evoluindo como profissional de tecnologia,
+              colaborar com outras pessoas e, futuramente, atuar no desenvolvimento
+              de soluções web.
+            </p>
+          </div>
+          <div class="about-card reveal">
+            <div class="about-card-icon">⌘</div>
+            <h3>Minha jornada</h3>
+            <ul class="timeline">
+              <li><span class="timeline-dot"></span><div><strong>Ciência da Computação</strong><small>UDF · Em andamento</small></div></li>
+              <li><span class="timeline-dot"></span><div><strong>Lógica e programação</strong><small>Prática com exercícios e projetos acadêmicos</small></div></li>
+              <li><span class="timeline-dot"></span><div><strong>Desenvolvimento web</strong><small>Aprendizado de HTML, CSS e JavaScript</small></div></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section container" id="habilidades">
+      <div class="section-heading reveal">
+        <p class="eyebrow">TECNOLOGIAS</p>
+        <h2>Ferramentas que estou <span class="gradient-text">explorando.</span></h2>
+        <p class="section-description">Estas são algumas das tecnologias que fazem parte da minha jornada de aprendizado.</p>
+      </div>
+      <div class="skills-grid">
+        <article class="skill-card reveal"><span class="skill-symbol html">5</span><h3>HTML</h3><p>Estruturação de páginas web</p></article>
+        <article class="skill-card reveal"><span class="skill-symbol css">3</span><h3>CSS</h3><p>Estilização e layouts responsivos</p></article>
+        <article class="skill-card reveal"><span class="skill-symbol js">JS</span><h3>JavaScript</h3><p>Interatividade para páginas web</p></article>
+        <article class="skill-card reveal"><span class="skill-symbol c">C</span><h3>Linguagem C</h3><p>Lógica e fundamentos de programação</p></article>
+        <article class="skill-card reveal"><span class="skill-symbol py">Py</span><h3>Python</h3><p>Prática de programação</p></article>
+        <article class="skill-card reveal"><span class="skill-symbol sql">DB</span><h3>MySQL</h3><p>Modelagem e consultas em banco de dados</p></article>
+      </div>
+    </section>
+
+    <section class="section section-muted" id="projetos">
+      <div class="container">
+        <div class="section-heading reveal">
+          <p class="eyebrow">MEU TRABALHO</p>
+          <h2>Projetos em <span class="gradient-text">destaque.</span></h2>
+          <p class="section-description">Uma seleção de exercícios e projetos acadêmicos. Atualize os cartões com seus repositórios e imagens.</p>
+        </div>
+        <div class="projects-grid">
+          <article class="project-card reveal">
+            <div class="project-image project-image-one"><span> C </span></div>
+            <div class="project-info"><p class="project-type">LINGUAGEM C · ACADÊMICO</p><h3>Calculadora em C</h3><p>Projeto de prática com funções, estruturas condicionais, repetição e operações matemáticas.</p><div class="tags"><span>C</span><span>Funções</span><span> lógica</span></div><a class="project-link" href="https://github.com/" target="_blank" rel="noopener noreferrer">Ver repositório ↗</a></div>
+          </article>
+          <article class="project-card reveal">
+            <div class="project-image project-image-two"><span>SQL</span></div>
+            <div class="project-info"><p class="project-type">MYSQL · BANCO DE DADOS</p><h3>Projeto de banco de dados</h3><p>Modelagem de tabelas, relacionamentos, chaves e consultas SQL para organizar informações.</p><div class="tags"><span>MySQL</span><span>SQL</span><span>Modelagem</span></div><a class="project-link" href="https://github.com/" target="_blank" rel="noopener noreferrer">Ver repositório ↗</a></div>
+          </article>
+          <article class="project-card reveal">
+            <div class="project-image project-image-three"><span>&lt;/&gt;</span></div>
+            <div class="project-info"><p class="project-type">DESENVOLVIMENTO WEB</p><h3>Projetos com HTML e CSS</h3><p>Experimentos de criação de páginas, organização de conteúdo e construção de interfaces responsivas.</p><div class="tags"><span>HTML</span><span>CSS</span><span>JavaScript</span></div><a class="project-link" href="https://github.com/" target="_blank" rel="noopener noreferrer">Ver repositório ↗</a></div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section container" id="contato">
+      <div class="contact-panel reveal">
+        <p class="eyebrow">VAMOS CONVERSAR?</p>
+        <h2>Tem um projeto ou uma oportunidade?</h2>
+        <p>Estou aberto a trocar conhecimentos, aprender com outras pessoas e conhecer novas oportunidades na área de tecnologia.</p>
+        <!-- Troque pelo seu e-mail. -->
+        <a class="button button-primary" href="mailto:seuemail@exemplo.com">Enviar um e-mail ↗</a>
+        <div class="contact-socials">
+          <a href="https://github.com/" target="_blank" rel="noopener noreferrer">GitHub</a>
+          <a href="https://www.linkedin.com/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-content">
+      <a class="logo" href="#topo">&lt;PH<span>/&gt;</span></a>
+      <p>Desenvolvido por Pedro Henrique · <span id="year"></span></p>
+      <a href="#topo" class="back-top">Voltar ao topo ↑</a>
+    </div>
+  </footer>
+</body>
+</html>
