@@ -1,1 +1,0 @@
-Coloque sua foto nesta pasta com o nome perfil.jpg. Você também pode adicionar imagens dos projetos e atualizar os caminhos no index.html.
